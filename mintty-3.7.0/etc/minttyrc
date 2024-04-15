@@ -1,0 +1,14 @@
+Term=xterm
+StatusLine=yes
+Locale=en_US
+Charset=UTF-8
+
+ShowHiddenFonts=yes
+
+Font=Source Code Pro
+FontWeight=400
+FontHeight=12
+
+Charwidth=unicode
+Emojis=zoom
+EmojiPlacement=full

@@ -5,10 +5,24 @@ Charset=UTF-8
 
 ShowHiddenFonts=yes
 
+#Ligatures=2
+#LigaturesSupport=2
+
 Font=Source Code Pro
 FontWeight=400
 FontHeight=12
 
+FontChoice=CJK:2;PictoSymbols:3;Runic:4;Private:5;|Mathematical Alphanumeric Symbols:6;|Enclosed Alphanumeric Supplement:3;|Mathematical Operators:6;|Chess Symbols:7
+Font2=微软雅黑
+Font3=Segoe UI Symbol
+Font4=BabelStone Moon Runes
+Font5=Symbols Nerd Font Mono
+Font6=DejaVu Sans Mono Unifont
+Font7=Noto Sans Symbols 2
+
 Charwidth=unicode
 Emojis=zoom
+#EmojiPlacement=stretch
+#EmojiPlacement=align
+#EmojiPlacement=middle
 EmojiPlacement=full

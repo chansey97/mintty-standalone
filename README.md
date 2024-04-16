@@ -3,7 +3,7 @@ A standalone mintty minimal installation for Windows Console CLI (e.g. CMD, Wind
 
 ## Motivation
 
-https://new.reddit.com/r/windows7/comments/1c53d26/color_emoji_on_windows_7_terminal_support_cmd/
+https://new.reddit.com/r/windows7/comments/1c53yz6/color_emoji_in_windows_7_terminal_support_cmd/
 
 ## Demo
 

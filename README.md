@@ -9,19 +9,21 @@ On Windows, input/output Unicode in a console is tricky. The legacy console (con
 
 There have been several workarounds at the moment, e.g. ConEmu, ConsoleZ, etc, but they can't show Color Emoji on Windows 7.
 
-Color Emoji requires Color Font (aka Chromatic font) support. Unfortunately it is a new feature from Windows 8.1. Any program on Windows 7 that uses GDI/Uniscribe/DirectWrite to render font directly will never show Color Emojis, even though you have selected correct Font (COLR/CPAL).
+Color Emoji requires Color Font (aka Chromatic font) support. Unfortunately it is a new feature from Windows 8.1. Any program on Windows 7 that uses GDI/Uniscribe/DirectWrite to render font directly will never show Color Emoji, even though you have selected correct Font (COLR/CPAL).
 
 However, some programs are exceptions, such as Firefox, Telegram, etc. They use their own methods for rendering Color Font. 
 
 Mintty is another such example. It renders Color Emoji as graphics, so Color Font is not necessary.
 
-**A Screen recording:**
+#### A Screen recording
 
 https://github.com/chansey97/mintty-standalone/assets/4015056/8fe6df31-b7a1-40cd-b354-85270f318d0d
 
 P.s. The approach also supports [FarManager](https://www.farmanager.com/), I didn't show it in the demo though. Being able to display Color Emoji make console apps look nicer. Might be more apps you can find?
 
-**How to achieve that? There are 3 ways currently.**
+#### How to achieve that? 
+
+There are 3 ways currently.
 
 1. Use my standalone mintty minimal installation from [this repository](https://github.com/chansey97/mintty-standalone)
    * Copy `mintty-3.7.0` to `C:/green/mintty/`.

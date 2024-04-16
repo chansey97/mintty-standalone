@@ -15,13 +15,13 @@ However, some programs are exceptions, such as Firefox, Telegram, etc. They use 
 
 Mintty is another such example. It renders Color Emoji as graphics, so Color Font is not necessary.
 
-#### A Screen recording
+### A Screen recording
 
 https://github.com/chansey97/mintty-standalone/assets/4015056/8fe6df31-b7a1-40cd-b354-85270f318d0d
 
 P.s. The approach also supports [FarManager](https://www.farmanager.com/), I didn't show it in the demo though. Being able to display Color Emoji make console apps look nicer. Might be more apps you can find?
 
-#### How to achieve that? 
+### How to achieve that? 
 
 There are 3 ways currently.
 

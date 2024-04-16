@@ -26,13 +26,13 @@ P.s. The approach also supports [FarManager](https://www.farmanager.com/), I did
    * Double click `mintty-standalone-winpty-65001-cmd.cmd` , it should open a mintty window with CMD.
    * If you'd like to run Power Shell, please make sure Windows Power Shell v5.1 has been installed (see  https://learn.microsoft.com/en-us/previous-versions/powershell/scripting/windows-powershell/wmf/setup/install-configure?view=powershell-7.1#wmf-51-prerequisites-for-windows-server-2008-r2-sp1-and-windows-7-sp1), then double click  `mintty-standalone-winpty-65001-powershell5.cmd`.
 * Create the standalone mintty minimal installation from upstream by yourself.
-   * Create `mintty-3.7.0` folder in `C:/green/mintty`.
-   * Download https://repo.msys2.org/distrib/msys2-x86\_64-latest.tar.xz.
+   * Create `mintty-3.7.0` folder in `C:/green/mintty`
+   * Download https://repo.msys2.org/distrib/msys2-x86\_64-latest.tar.xz
    * Copy the corresponding mintty files to `C:/green/mintty/mintty-3.7.0` (compare the directory structure with https://github.com/chansey97/mintty-standalone/tree/main/mintty-3.7.0).
-   * Download [https://github.com/rprichard/winpty/releases/download/0.4.3/winpty-0.4.3-msys2-2.7.0-x64.tar.gz](https://github.com/rprichard/winpty/releases/download/0.4.3/winpty-0.4.3-msys2-2.7.0-x64.tar.gz) .
+   * Download https://github.com/rprichard/winpty/releases/download/0.4.3/winpty-0.4.3-msys2-2.7.0-x64.tar.gz
    * Copy the corresponding winpty files to`C:/green/mintty/mintty-3.7.0`  (compare directory structure with https://github.com/chansey97/mintty-standalone/tree/main/mintty-3.7.0).
-   * Create `minttyrc` in  `C:\green\mintty\mintty-3.7.0\etc` and config as your need (see [https://github.com/chansey97/mintty-standalone/blob/main/mintty-3.7.0/etc/minttyrc](https://github.com/chansey97/mintty-standalone/blob/main/mintty-3.7.0/etc/minttyrc), [https://github.com/chansey97/mintty-standalone/tree/main/mintty-3.7.0/usr/share/mintty/fonts](https://github.com/chansey97/mintty-standalone/tree/main/mintty-3.7.0/usr/share/mintty/fonts), https://github.com/mintty/mintty/wiki/Tips#providing-and-selecting-fonts).
-   * Create emoji graphics. You can copy from mine [https://github.com/chansey97/mintty-standalone/tree/main/mintty-3.7.0/usr/share/mintty/emojis/zoom](https://github.com/chansey97/mintty-standalone/tree/main/mintty-3.7.0/usr/share/mintty/emojis/zoom) directly or follow the the tips from [https://github.com/mintty/mintty/wiki/Tips#providing-and-selecting-fonts](https://github.com/mintty/mintty/wiki/Tips#providing-and-selecting-fonts) to create them by yourself.
+   * Create `minttyrc` in  `C:\green\mintty\mintty-3.7.0\etc` and config as your need (see https://github.com/chansey97/mintty-standalone/blob/main/mintty-3.7.0/etc/minttyrc, https://github.com/chansey97/mintty-standalone/tree/main/mintty-3.7.0/usr/share/mintty/fonts, https://github.com/mintty/mintty/wiki/Tips#providing-and-selecting-fonts).
+   * Create emoji graphics. You can copy from mine https://github.com/chansey97/mintty-standalone/tree/main/mintty-3.7.0/usr/share/mintty/emojis/zoom) directly or follow the the tips from https://github.com/mintty/mintty/wiki/Tips#providing-and-selecting-fonts to create them by yourself.
    * Double click `mintty-standalone-winpty-65001-cmd.cmd` or `mintty-standalone-winpty-65001-powershell5.cmd`.
 * Use msys2 with mintty + winpty.
    * You will get additional bash and zsh functionality. The drawback is not as lightweight as the standalone installation above. Also some apps might have path style problem.

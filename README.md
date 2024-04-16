@@ -29,7 +29,7 @@ P.s. The approach also supports [FarManager](https://www.farmanager.com/), I did
    * Create `mintty-3.7.0` folder in `C:/green/mintty`.
    * Download https://repo.msys2.org/distrib/msys2-x86\_64-latest.tar.xz .
    * Copy the corresponding mintty files to `C:/green/mintty/mintty-3.7.0` (compare [the directory structure](https://github.com/chansey97/mintty-standalone/tree/main/mintty-3.7.0)).
-   * Download https://github.com/rprichard/winpty/releases/download/0.4.3/winpty-0.4.3-msys2-2.7.0-x64.tar.gz .
+   * Download [msys2-x86_64-latest.tar.xz](https://repo.msys2.org/distrib/msys2-x86_64-latest.tar.xz).
    * Copy the corresponding winpty files to`C:/green/mintty/mintty-3.7.0`  (compare [directory structure](https://github.com/chansey97/mintty-standalone/tree/main/mintty-3.7.0)).
    * Create `minttyrc` in  `C:\green\mintty\mintty-3.7.0\etc` and config as your need. (See [minttyrc](https://github.com/chansey97/mintty-standalone/blob/main/mintty-3.7.0/etc/minttyrc), [integrated fonts](https://github.com/chansey97/mintty-standalone/tree/main/mintty-3.7.0/usr/share/mintty/fonts), [mintty-tips](https://github.com/mintty/mintty/wiki/Tips#providing-and-selecting-fonts)).
    * Create emoji graphics. You can copy from [mine](https://github.com/chansey97/mintty-standalone/tree/main/mintty-3.7.0/usr/share/mintty/emojis/zoom) directly or follow the [tips](https://github.com/mintty/mintty/wiki/Tips#providing-and-selecting-fonts) from to create them by yourself.

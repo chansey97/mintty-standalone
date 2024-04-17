@@ -3,7 +3,7 @@ A standalone mintty minimal installation for Windows Console CLI (e.g. CMD, Wind
 
 ## Motivation
 
-[Color Emoji in Windows 7 Terminal](https://new.reddit.com/r/windows7/comments/1c53yz6/color_emoji_in_windows_7_terminal_support_cmd/) (originally posted as a Reddit thread but was treat as spam and removed by Reddit’s filters).
+[Color Emoji in Windows 7 Terminal](https://new.reddit.com/r/windows7/comments/1c53yz6/color_emoji_in_windows_7_terminal_support_cmd/)
 
 On Windows, input/output Unicode in a console is tricky. The legacy console (conhost.exe) is buggy and no one want to use it. Nowadays, we have Windows Terminal, but it requires Windows 10 (build 19041) or later.
 
